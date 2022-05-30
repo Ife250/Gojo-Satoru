@@ -32,17 +32,17 @@ global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
 global.packname = 'kingsley-bot'
 global.author = '🐦kingsley'
 global.sessionName = 'session'
-global.prefa = ['👩‍💻','-','.','🐦','🐤','🗿']
+global.prefa = ['-','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'kingsley 👩‍💻 Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
+    admin: 'This Feature Is Only For 😶 Admin!',
+    botAdmin: 'kingsley-Bot Must Be Admin 😄 First!',
     owner: 'This Feature Is Only For ꪶ࿋྄ིᤢꫂKíñgsléyꪶ࿋྄ིᤢꫂ https://wa.me/265889976968',
     group: 'Feature Used Only For Groups lmao!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute kingsley on the way...',
+    wait: 'Wait A minute kingsley 😉 on the way...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
