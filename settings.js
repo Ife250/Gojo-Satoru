@@ -32,7 +32,7 @@ global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
 global.packname = 'kingsley-bot'
 global.author = '🐦kingsley'
 global.sessionName = 'session'
-global.prefa = ['-','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'kingsley 👩‍💻 Done ✓',
