@@ -177,8 +177,8 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
             let chats = global.db.data.chats[m.chat]
             if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
             if (chats) {
-                if (!('mute' in chats)) chats.mute = true
-                if (!('antilink' in chats)) chats.antilink = true
+                if (!('mute' in chats)) chats.mute = false
+                if (!('antilink' in chats)) chats.antilink = false
             } else global.db.data.chats[m.chat] = {
                 mute: true,
                 antilink: true,
@@ -3284,7 +3284,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-                     case 'alive': case 'bot': case 'kingsley': case 'king':{
+                     case 'alive': case 'bot': case 'kingsley': case 'king': {
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
@@ -3297,10 +3297,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │「 sup 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Shashi kingsley thaicho🎉
+┌┤✑  legendary 😎kingsley here🎉
 ││✑  🐦🖐️!!
 │└───────────────┈ ⳹
-│ 「 BOT INFO 」
+│ 「 king INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
@@ -3324,17 +3324,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🍇All Junks🍇',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🍒List kings food🍒',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤kingsley👤',
+                                    displayText: '😄kingsley✨',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3384,17 +3384,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu🎉',
+                                    displayText: 'All Junks😉',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu⭐',
+                                    displayText: 'List legendary staff🤔',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🐦',
+                                    displayText: '💥kingsley😌🍷',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3765,7 +3765,7 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════✍︎Kíñgsléy
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -4173,11 +4173,11 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
-case 'thanksto': case 'tqto': case 'tqtt':
+case 'thanksto': case 'legends': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks to kingsley 👩‍💻 (Carter 😎) Juice-Kid and
-Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
+Thanks to This Legends 💥 kingsley 👩‍💻 aka owner of kingsley bot 😂 (Carter 😎aka owner of future 💥 bot) Juice-Kid🍷or kid hacker 🤔 as u people call him yet owner of juice 💥bot and
+ lil bro ㊖𝐌𝐈𝐍𝐀𝐓𝐎᭄☬༒👈😂 , Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
 DGXeon ( 45% Credits goes to him ,in this script)
 And Again Me (Kingsley 🎉) 🐦 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
