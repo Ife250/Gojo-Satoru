@@ -3295,7 +3295,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/AnimeX.jpg')},
                             hydratedFooterText: `┌─❖
-│「 sup 👋 」
+│「 sup 😄 」
 └┬❖ 「 ${pushname} 」
 ┌┤✑  legendary 😎kingsley here🎉
 ││✑  🐦🖐️!!
@@ -3356,7 +3356,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             jpegThumbnail: fs.readFileSync('./GojoMedia/AnimeX.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
-│「 sup 😎 」
+│「 sup  🌚 」
 └┬❖ 「 ${pushname} 」
 ||✓ kingsley here to help😄
 │└───────────────┈ ⳹
@@ -3384,17 +3384,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All menu😉',
+                                    displayText: 'All 😂junks',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List menu🤔',
+                                    displayText: '🌚List menu👌',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '💥kingsley😌🍷',
+                                    displayText: '😌kingsley👌',
                                     id: `${prefix}owner`
                                 }
                             }]
