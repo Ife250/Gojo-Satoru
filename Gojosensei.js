@@ -3284,7 +3284,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-                     case 'alive': case 'bot': case 'kingsley': case 'king': {
+                     case 'alive': case 'bot': case 'kingsley': {
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = ` `
@@ -3334,7 +3334,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '😄kingsley✨',
+                                    displayText: '👤Owner👤',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3384,17 +3384,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All 😂junks',
+                                    displayText: 'All Menu🎉',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🌚List menu👌',
+                                    displayText: 'List Menu⭐',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '😌kingsley👌',
+                                    displayText: 'Owner🐦',
                                     id: `${prefix}owner`
                                 }
                             }]
