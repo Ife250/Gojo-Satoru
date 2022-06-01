@@ -177,11 +177,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
             let chats = global.db.data.chats[m.chat]
             if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
             if (chats) {
-                if (!('mute' in chats)) chats.mute = false
-                if (!('antilink' in chats)) chats.antilink = false
+                if (!('mute' in chats)) chats.mute = true
+                if (!('antilink' in chats)) chats.antilink = true
             } else global.db.data.chats[m.chat] = {
-                mute: false,
-                antilink: false,
+                mute: true,
+                antilink: true,
             }
 		
 	    let setting = global.db.data.settings[botNumber]
@@ -200,11 +200,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Kingsley`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/AnimeX.jpg`),"sourceUrl": "https://telegra.ph/file/3dc8ead2776d65a3b0d02.jpg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/gojo.jpg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Kingsley`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/AnimeX.jpg`),"sourceUrl": "https://telegra.ph/file/3dc8ead2776d65a3b0d02.jpg"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -3334,7 +3334,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '👤kingsley👤',
                                     id: `${prefix}owner`
                                 }
                             }]
