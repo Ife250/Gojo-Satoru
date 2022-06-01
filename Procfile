@@ -5,7 +5,7 @@ web: node . --server
 run:
 
    worker2: npm start 
-   
-   worker3: npm i ffmpeg && npm i @adiwajshing/baileys@3.5.3 && npm start 
 
- 
+
+
+
